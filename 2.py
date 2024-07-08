@@ -1,3 +1,6 @@
+
+lst=[]
+
 def add_to_list(lst):
     item = input("Enter an item to add to the list (or 'done' to finish): ")
     while item.lower() != 'done':
@@ -27,3 +30,10 @@ def print_list(lst):
     for item in lst:
         print("-", item)
     print("")
+
+
+
+
+add_to_list(lst)
+remove_from_list(lst)
+print_list(lst)
